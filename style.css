@@ -1,0 +1,35 @@
+
+.center{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.05); }
+body div table th{
+    padding: 7px;
+}
+body div table{
+    font-family: Arial;
+}
+.social-media{
+    text-align: center;
+}
+body div a{
+    padding-left: 35px;
+    padding-right: 35px;
+}
+::-webkit-scrollbar {
+    width: 20px;
+} 
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 5px grey;
+    border-radius: 10px;
+}  
+::-webkit-scrollbar-thumb {
+    background: black;
+    border-radius: 10px;
+}
+  
